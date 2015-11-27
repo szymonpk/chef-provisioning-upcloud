@@ -1,6 +1,6 @@
-require 'chef/provisioning/upcloud_driver/driver'
+require "chef/provisioning/upcloud_driver/driver"
 
 Chef::Provisioning.register_driver_class(
-  'upcloud',
+  "upcloud",
   Chef::Provisioning::UpcloudDriver::Driver
 )
